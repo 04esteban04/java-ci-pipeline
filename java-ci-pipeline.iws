@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="java-ci-pipeline:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7db2a1e6-692d-4c44-bceb-5d7f5f3f317f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-ci-pipeline.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-ci-pipeline.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-ci-pipeline.iws" beforeDir="false" afterPath="$PROJECT_DIR$/java-ci-pipeline.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Recursos/Java_ci_pipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +35,41 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="java-ci-pipeline" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="java-ci-pipeline" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test_Main" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="java-ci-pipeline" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Test_Main" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java-ci-pipeline.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/java_ci_pipeline_jar/java-ci-pipeline.jar" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -52,35 +89,99 @@
       <option name="project" value="LOCAL" />
       <updated>1583808217160</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Probando creación de archivo .jar">
+      <created>1583810863013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583810863013</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Creando aplicación en Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando aplicación en Java" />
+    <MESSAGE value="Probando creación de archivo .jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Probando creación de archivo .jar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Project_Structure" timestamp="1583807930950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="261" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1583807930950" />
-    <state x="794" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583810621784">
+    <state x="223" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583894813461">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="794" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1583810621783" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1583808215580">
+    <state x="223" y="60" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1583894813461" />
+    <state x="794" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1583893129486">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583808215580" />
-    <state x="162" y="0" key="SettingsEditor" timestamp="1583810791427">
+    <state x="794" y="222" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1583893129486" />
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1583810861283">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="162" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583810791427" />
-    <state x="261" y="80" key="Vcs.Push.Dialog.v2" timestamp="1583810836628">
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583810861283" />
+    <state x="499" y="93" key="FileChooserDialogImpl" timestamp="1583893189956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="80" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583810836628" />
+    <state x="499" y="93" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583893189956" />
+    <state width="1481" height="528" key="GridCell.Tab.0.bottom" timestamp="1583896096694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="528" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583896096694" />
+    <state width="1481" height="528" key="GridCell.Tab.0.center" timestamp="1583896096694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="528" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583896096694" />
+    <state width="1481" height="528" key="GridCell.Tab.0.left" timestamp="1583896096694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="528" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583896096694" />
+    <state width="1481" height="528" key="GridCell.Tab.0.right" timestamp="1583896096694">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="528" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583896096694" />
+    <state width="1481" height="457" key="GridCell.Tab.1.bottom" timestamp="1583895833488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="457" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583895833488" />
+    <state width="1481" height="457" key="GridCell.Tab.1.center" timestamp="1583895833488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="457" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583895833488" />
+    <state width="1481" height="457" key="GridCell.Tab.1.left" timestamp="1583895833488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="457" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583895833488" />
+    <state width="1481" height="457" key="GridCell.Tab.1.right" timestamp="1583895833488">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="457" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583895833488" />
+    <state x="96" y="0" key="SettingsEditor" timestamp="1583893134616">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="96" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583893134616" />
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2" timestamp="1583810874386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583810874386" />
+    <state x="401" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1583893035076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="401" y="194" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583893035076" />
+    <state x="423" y="285" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1583894557765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="423" y="285" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1583894557765" />
+    <state x="431" y="158" key="git4idea.merge.GitPullDialog" timestamp="1583810868243">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="158" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1583810868243" />
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1583893050701">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1583893050701" />
   </component>
 </project>
