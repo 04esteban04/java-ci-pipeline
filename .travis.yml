@@ -1,3 +1,10 @@
+addons:
+  sonarcloud:
+    organization: "abcd12345"
+    token:
+      secure: "RXylv8W4Dw8uEo+rJcah5E6W4qqRP5V8xPzXxT3Xadumx0JOSN/ErEJTw2vNWPg9WmnDebpQTEVrlbRQxyjri7luBraPT5mnHrsjXV0IqJG3aSlXakAM5BUOuEgqWAANNjH8pf3nEQ5fu3dhCr02cFmudFnlugAy6pfjGXawenxXnqjJxadMfRhgad8ZyeG9eMj/1MExZnBQu4t6lBnWCtALbfL1tSU4h/FQhXUnIKFBgr6S9huR2xVnEnP6Akk/hMUkxjDDkS01KCEQEW57RHwMauWrFKNtxmQXEWyq04r+5Z8CW+rzFbg9atP8Fk7tpPUk3TpOTa4FBAgzjngr7sG3U+68rxwymKaYjNi5tIz/duFTYxrXnB5r4unv60sxSNgaD3Ns3iOL8lMqofrj8J+Bb0thGpewdxI0joNxzHIADXfJSnMrmBHXqr5QcohrokzsNML+fdF3vr+sZf3B+tGl+BK8i8xZPROC+c9pkkAmmoCj778aVIlXtIuxH2NwKDnV0SDCYf/Eo/6FehQJLiTOuBOJr6182/Mt9xemxtXLghtQ2mKCkek7mbTdE8yUrrGtw+9WJ4TGIyQpYRQo+bl5MT4vGT35kGzbhmLrHGzxfcFnJJxmy3L1j1bGQajFLDKnU+pMXjDYoR5cugVR4QG7zPkuas3ta9ca1vjqaYA="
+
 language: java
 script:
   - ant dist
+  - sonar-scanner
