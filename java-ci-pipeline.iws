@@ -7,15 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db2a1e6-692d-4c44-bceb-5d7f5f3f317f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66c29362dfbe09179a7d7245ee5effeda96d4a1d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/924f089edb4af5ee45c8a9d1129cd28e2b368138" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/d/bdc348bf75801c527f51cdeddc8edf027f7ef35a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/e/dea01dd89a3b602828e630677fde5d77c06441c8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/Calculadora-1.0.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-ci-pipeline.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/java-ci-pipeline.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/java-ci-pipeline.iws" beforeDir="false" afterPath="$PROJECT_DIR$/java-ci-pipeline.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +45,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -219,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583971972036</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Añadido Sonarcloud">
+      <created>1584065006198</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1584065006198</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -235,7 +234,8 @@
     <MESSAGE value="Git ignore 1" />
     <MESSAGE value="Git ignore 2" />
     <MESSAGE value="Probando Travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Probando Travis" />
+    <MESSAGE value="Añadido Sonarcloud" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido Sonarcloud" />
   </component>
   <component name="WindowStateProjectService">
     <state x="261" y="0" key="#Project_Structure" timestamp="1583807930950">
@@ -262,10 +262,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="534" y="276" width="467" height="283" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1583969691582" />
-    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1583971970166">
+    <state x="336" y="0" key="CommitChangelistDialog2" timestamp="1584065003640">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1583971970166" />
+    <state x="336" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1584065003640" />
     <state x="499" y="93" key="FileChooserDialogImpl" timestamp="1583970207813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -306,10 +306,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="168" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583973672485" />
-    <state x="261" y="80" key="Vcs.Push.Dialog.v2" timestamp="1583971976671">
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2" timestamp="1584065011249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="261" y="80" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1583971976671" />
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1584065011249" />
     <state x="401" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1584063850995">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
